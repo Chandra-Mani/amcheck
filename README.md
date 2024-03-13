@@ -109,13 +109,13 @@ equiv_atoms  = [0, 0, 1, 1]
 # high-pressure FeO: Fe at As positions, O at Ni positions => afm
 chem_symbols = ["O", "O", "Fe", "Fe"]
 spins = ["n", "n", "u", "d"]
-print(is_altermagnet(symops, positions, equiv_atoms, chem_symbols,
+print(is_altermagnet(symmetry_operations, positions, equiv_atoms, chem_symbols,
                      spins))
 
 # MnTe: Mn at Ni positions, Te at As positions => am
 chem_symbols = ["Mn", "Mn", "Te", "Te"]
 spins = ["u", "d", "n", "n"]
-print(is_altermagnet(symops, positions, equiv_atoms, chem_symbols,    
+print(is_altermagnet(symmetry_operations, positions, equiv_atoms, chem_symbols,    
                      spins))
 ```
 
